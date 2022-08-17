@@ -6,9 +6,9 @@
 # Check It Out By GIF
 ![Code_HSn20qMBjC](https://user-images.githubusercontent.com/93720162/185112502-ea44dbf6-8fb4-4b37-b70a-d3e992485117.gif)
 
+<br>
+<br>
 
-<br>
-<br>
 ## USED MODULES (python-libraries)
 Curses =>>> For manuplating the stdscr (Standerd Screen Output) on the terminal <br>
 time   =>>> To use sleep function for the sake of clearfing the Drowan Shortest Path <br>
