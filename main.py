@@ -125,63 +125,6 @@ def find_shortest_path(maze, stdscr):
             # add this neighboring node to visited node so as it be checked
             visited.add(neighbor)
             
-# def find_path(maze, stdscr):
-    start = "O"
-    end = "X"
-    start_pos = find_start(maze, start)
-    
-    # initialize the queue
-    q = queue.Queue()
-    q.put(((start_pos), [start_pos]))
-
-    # don't check nodes in visisted set
-    visited = set()
-
-
-    # breadth first search alogrithm
-    while not q.empty():
-        currenct_pos, path = q.get()
-        row, col = currenct_pos
-
-
-        # print the maze every new iteration with red path
-        stdscr.clear()
-        print_maze(maze, stdscr, path)
-        stdscr.refresh()
-        time.sleep(0.2)
-
-        # check if node whose pair == (row, col) is end
-        if maze[row][col] == end:
-            return path
-
-        # get all neighbors to check them 
-        neighbors = find_all_neighbors(maze, row, col)
-
-
-        # check the fetched neighbor
-        for neighbor in neighbors:
-
-            # check if neighbore is already visited
-            if neighbor in visited:
-                continue
-
-            # if neighbor is obstacle ignore it (continue)
-            r, c = neighbor
-            if maze[r][c] == "#":
-                continue
-
-            # form the new path
-            new_path = path + [neighbor]
-
-            # add This neighbor to the queue with anew path starting with it's position
-            q.put((neighbor, new_path))
-            
-            # asighn this node as visited 
-            visited.add(neighbor)    # which is a pair
-
-
-
-
 def main(stdscr):
     curses.init_pair(1, curses.COLOR_BLUE, curses.COLOR_BLACK)
     curses.init_pair(2, curses.COLOR_RED, curses.COLOR_BLACK)
