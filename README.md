@@ -3,7 +3,7 @@ A graspable python script that applies the concept of Breadth First Algorithm (B
 <br>
 <br>
 
-## Check It Out By GIF
+## Check it out by a gif
 ![Code_HSn20qMBjC](https://user-images.githubusercontent.com/93720162/185112502-ea44dbf6-8fb4-4b37-b70a-d3e992485117.gif)
 
 <br>
