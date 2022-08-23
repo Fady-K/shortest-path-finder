@@ -1,5 +1,5 @@
 # Shortest_Path_Finder
-A graspable python script that applies the concept of Breadth First Algorithm (BFS) on simple maze. Using a strong search Algorithm (BFS), This script helps to solve the provided maze and figure out the shortest possible path for it.
+A graspable python script that applies the concept of Breadth First Algorithm (BFS) on simple maze. Using a strong search algorithm (BFS), this script helps to solve the provided maze and figure out the shortest possible path for it. 
 <br>
 <br>
 
@@ -9,7 +9,7 @@ A graspable python script that applies the concept of Breadth First Algorithm (B
 <br>
 <br>
 
-## USED MODULES (python-libraries)
-Curses =>>> For manuplating the stdscr (Standerd Screen Output) on the terminal <br>
-time   =>>> To use sleep function for the sake of clearfing the Drowan Shortest Path <br>
-Queue  =>>> Queue as a data struture for storing the starting node and all surrounding neighbors <br>
+## MODULES IN USE (python-libraries) 
+Curses =>>> For manipulating the stdscr (Standerd Screen Output) on the terminal <br>
+time   =>>> To use the sleep function for the sake of clearing the Drawn Shortest Path <br>
+Queue  =>>> Queue as a data struture for storing the starting node and all surrounding neighbors <br>
