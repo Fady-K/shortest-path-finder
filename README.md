@@ -1,4 +1,4 @@
-# Shortest_Path_Finder
+# Shortest Path Finder
 A graspable python script that applies the concept of Breadth First Algorithm (BFS) on simple maze. Using a strong search algorithm (BFS), this script helps to solve the provided maze and figure out the shortest possible path for it. 
 <br>
 <br>
